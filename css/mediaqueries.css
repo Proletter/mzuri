@@ -1,0 +1,33 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+   
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    .sidebar {
+        display:none
+    }
+    .item-card {
+        height: 48px;
+        border-radius: 4px 4px 4px 4px;
+        border: 1px solid #dddddd;
+        display: flex;
+    }
+
+    .searchbox{
+        display: none;
+    }
+    .nav-text{
+        display:none;
+    }
+    .navbar-branditem{
+        display: none
+    }
+
+    .right-nav-items > img {
+        position:relative;
+        left: 270px;
+    }
+    
+  }
